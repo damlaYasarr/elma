@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Libre+Baskerville:wght@700&family=Lora&family=Nunito:wght@300&family=Oswald&family=Roboto+Slab:wght@600&display=swap");
+
+.serve-nav-mother {
+  margin: 0;
+  padding: 0;
+ 
+  border-bottom: 1px solid rgb(202, 201, 201);
+  box-sizing: border-box;
+  height: 54px;
+  padding: 5px;
+  -webkit-box-shadow: 0px 1px 1px #e7e7e7;
+  -moz-box-shadow: 0px 1px 1px #d6d6d6;
+  box-shadow: 0px 1px 1px #d6d6d6;
+}
+.serve-nav2 {
+  display: flex;
+  flex-direction: row;
+}
+.serve-nav2-child {
+  margin-left: 18px;
+  color: #111321;
+  font-weight: bold;
+  font-size: 15px;
+}
+.serve-nav2-child:hover {
+  border: none;
+  color: #111321;
+}
+.serve-nav2-child:focus {
+  border: none;
+  color: #111321;
+}
+.serve-nav2-link {
+  font: bold;
+
+  font-size: 30px;
+}
+.serve-nav2-link:hover {
+  border: none;
+}
+
+.profesyonel-uye {
+  background-image: url("https://www.top-employers.com/globalassets/website-2.0/homepage/1.-homepage---header-content-block/top_employers_institute_homepage?format=jpeg&bgcolor=white&quality=75");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

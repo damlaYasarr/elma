@@ -1,0 +1,165 @@
+.serve-main-page{
+background-image: url("https://i.guim.co.uk/img/media/552501d7ff004bda9bd9fd8ada4146fd96e42c5a/0_299_6720_4031/master/6720.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=fbe282e61a7c3061229108ca08a902f8");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  opacity: 0.9;
+ 
+}
+.serve-main-page-header {
+    font-size: 29px;
+    color: #ffffff;
+    padding: 15px;
+    text-decoration: none;
+    border: none;
+  }
+  .serve-main-page-header:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border: none;
+  }
+  .serve-main-page-header-items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    align-items: center;
+    margin-left: 180px;
+  }
+  .serve-main-page-serve{
+  
+  
+    color: rgb(0, 0, 0);
+      box-sizing: border-box;
+      width: 320px;
+      height: 250px;
+      font-size: 14px;
+      border: 1px solid grey;
+     background-color: white;
+     border-radius: 2px;
+     padding: 30px;
+  }
+  .serve-main-page-header1{
+      font-weight: bold;
+  }
+  .serve-main-page-serve span{
+    font-size: 10px;
+     margin-left: 10px;
+  }
+  .serve-main-page-serve a{
+    font-size: 10px;
+    color: green;
+   
+  }
+  .serve-main-page-serve button{
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+    border: none;
+    background-color: green;
+    color: white;
+  }
+  .serve-main-page-serve input{
+    width: 250px;
+    height: 30px;
+    border-radius: 2px;
+   outline: none;
+   border: 1px solid lightgray;
+   margin-bottom: 3px;
+   padding: 10px;
+   color: black;
+  }
+  .serve-people-istatistic{
+      margin-top: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      color: #ffffff;
+
+  }
+  .spantext{
+      font-size: 40px;
+      background-color: none;
+      font-weight: bold;
+  }
+  .image-slider-mother{
+      background-color: rgb(233, 233, 233);
+      width: 100%;
+      height: 240px;
+      color: rgb(27, 24, 51);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+  }
+  .image-slider-mother p{
+    font-size: 20px;
+      font-weight: bold;
+  }
+  .img-slider-body{
+      width: 70%;
+  }
+  .img-slider-body img{
+    width: 190px;
+    border-radius: 5px;
+}
+.spantext4{
+  font-size: 14px;
+  font-weight: bold;
+}
+.spantext5{
+  font-size: 15px;
+}
+.ad-break-client{
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  padding: 30px ;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ad-break-client p{
+  font-weight: bold;
+  color: rgb(42, 36, 71);
+}
+.ad-break-client span{
+  font-size: 17px;
+}
+.ad-break-client button{
+  width: 320px;
+  height: 38px;
+  border: none;
+  color: white;
+  background-color: green;
+  margin-top: 5px;
+  border-radius:5px;
+}
+.serve-main-page-footer{
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  padding: 30px ;
+  display: flex;
+  color: grey;
+  font-size: 12px;
+  flex-direction: row;
+  background-color: rgb(37, 37, 87);
+ justify-content: space-evenly;
+}
+.serve-main-page-footer a{
+  
+  color: grey;
+  font-size: 12px;
+ 
+}
+.serve-main-page-footer:hover a{
+  
+  color: grey;
+  font-size: 12px;
+ 
+}
+.elma-header{
+  font-size: 16px;
+}

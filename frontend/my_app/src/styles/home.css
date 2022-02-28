@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Libre+Baskerville:wght@700&family=Lora&family=Nunito:wght@300&family=Oswald&family=Raleway:wght@700&family=Roboto+Slab:wght@600&display=swap");
+* {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 85px;
+}
+
+/* .navlink {
+  color: rgb(240, 238, 238);
+  margin-left: 12px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.navlink:hover,
+:focus {
+  text-decoration: none;
+  color: rgb(240, 238, 238);
+  border: none;
+}
+.navlink:focus {
+  text-decoration: none;
+  color: rgb(240, 238, 238);
+  border: none;
+} */
+
+.block-example {
+  color: rgb(10, 170, 10);
+  text-decoration: none;
+  font-size: 0.8rem;
+  font-weight: 700;
+  border: 1px solid white;
+  margin: 2px;
+}
+.block-example:hover,
+:focus {
+  text-decoration: none;
+  color: rgb(10, 170, 10);
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.header-child {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  border: none;
+}
+.header-child:hover {
+  text-decoration: none;
+  color: white;
+  border: none;
+}
+.navlink-mother {
+  display: flex;
+  flex-direction: row;
+}
+.navlink-3 {
+  display: flex;
+  flex-direction: row;
+}

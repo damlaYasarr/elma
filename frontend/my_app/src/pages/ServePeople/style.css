@@ -1,0 +1,372 @@
+.serve-people-header-mother {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(195, 195, 195);
+  margin: 5px;
+}
+
+.header-item1-child {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  font-size: 30px;
+  font-weight: bold;
+}
+.header-item1-child:hover {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+}
+
+.header-item2-child {
+  text-decoration: none;
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid green;
+}
+.header-item2-child:hover {
+  text-decoration: none;
+  color: green;
+}
+.serve-People-body-mother {
+  display: flex;
+  flex-direction: column;
+}
+.img-img {
+  width: 100%;
+  height: 450px;
+}
+.ad-fix {
+  box-sizing: border-box;
+  width: 550px;
+  height: 150px;
+  border: 3px solid rgb(255, 196, 0);
+  background-color: white;
+  border-radius: 3px;
+  line-height: 23px;
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+}
+
+.ad-fix-header1 {
+  font-size: 23px;
+  font-weight: bold;
+}
+.ad-fix-header2 {
+  font-size: 15px;
+}
+.ad-fix-header3 {
+  border: none;
+  background-color: green;
+  color: white;
+  border-radius: 3px;
+  width: 160px;
+  height: 30px;
+}
+.serve-people-container {
+  box-sizing: border-box;
+  width: 500px;
+  height: 100px;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+.circle_pic {
+  float: left;
+  margin-top: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.circle_pic img {
+  width: 100%;
+}
+.serve-people-container-detail {
+ font-size: 11px;
+}
+.serve-people-container-detail span{
+  font-size: 11px;
+  margin: 2px;
+ }
+.serve-people-container-detail1 {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.serve-people-header1 {
+  margin-top: 15px;
+  color: #111321 !important;
+  font-weight: bold;
+  font-size: 15px;
+}
+.serve-people-body-detail-mother {
+  display: flex;
+  flex-direction: column;
+}
+.serve-people-body-detail-child1 {
+  box-sizing: border-box;
+  width: 210px;
+  height: 230px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+}
+.online-lesson-area {
+  margin-top: 12px;
+  font-size: 13px;
+  font-weight: bold;
+  color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.online-lesson-area1 {
+  margin: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-decoration: none;
+}
+.online-lesson-area1:hover {
+  color: rgb(29, 145, 29);
+  text-decoration: none;
+}
+.serve-people-page {
+  text-decoration: none;
+  color: inherit;
+}
+.serve-people-page:hover {
+  text-decoration: none;
+  color: inherit;
+}
+.serve-people-page-mother {
+  box-sizing: border-box;
+  width: 250px;
+  height: 250px;
+  border: 2px solid black;
+  position: relative;
+  text-align: center;
+}
+
+.text1-mother {
+  box-sizing: border-box;
+  width: 248px;
+  height: 80px;
+  background-color: #2b2d3a;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  background: rgba(27, 27, 27, 0.4);
+  font-size: 14px;
+}
+
+.serve-people-page {
+  line-height: 22px;
+}
+.serve-people-desc {
+  font-size: 10px;
+  color: #979797;
+}
+.serve-people-photos-mother {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.serve-people-photos img {
+  width: 140px;
+  height: 120px;
+  margin: 5px;
+}
+.wide-appearance {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bir {
+  width: 300px;
+}
+.iki {
+  width: 500px;
+}
+.serve-people-page-btn {
+  margin-top: 5px;
+  border: none;
+  background-color: rgb(26, 146, 26);
+  color: white;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.serve-people-photos:hover img {
+  cursor: zoom-in;
+}
+.comment-container {
+  font-size: 12px;
+  margin: 4px;
+}
+.star-icon i {
+  margin: 4px;
+  color: green;
+}
+.comment-container p {
+  font-size: 10px;
+}
+.serve-people-body-detail-child2 {
+  box-sizing: border-box;
+  width: 210px;
+  background-color: rgb(221, 221, 221);
+  border-radius: 4px;
+  padding: 8px;
+  margin: 5px;
+}
+.serve-people-body-detail-btn button{
+  font-size: 17px;
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 3px;
+  width: 210px;
+  height: 40px;
+  border: none;
+  background-color: rgb(17, 141, 17);
+  color: white;
+}
+.serve-people-price-body-mother{
+  width: 40%;
+  margin-left: 300px;
+  
+}
+.span-header a{
+  font-size: 12px;
+  color: grey;
+  text-decoration: none;
+border: none;
+}
+.span-header:hover a{
+  border: none;
+  color: grey;
+  text-decoration: none;
+
+}
+.price-definition{
+  box-sizing: border-box;
+  width: 400px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 14px;
+
+  background-color: #ffffff;
+  
+}
+.circle_pic1 {
+  float: left;
+  margin-top: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.circle_pic1 img {
+  width: 100%;
+}
+.price-user-info{
+  font-size: 12px;
+  font-weight: bold;
+  color: #111321;
+}
+.price-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 10px;
+}
+.price-question-mother{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+}
+.price-question{
+  font-size: 12px;
+  display: flex;
+  line-height: 12px;
+  flex-direction: column;
+
+}
+.price-explain{
+  padding: 10px;
+  font-size: 12px;
+}
+.price-serve{
+  
+  display: flex;
+  flex-direction: row;
+  
+}
+.price-child{
+  margin-top: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  background-color: #e6e6e7;
+  border-radius: 5px;
+}
+.price-child div{
+  border-bottom: 1px solid grey;
+  font-weight: bold;
+}
+.price-child a{
+  text-decoration: none;
+  color: #0d9240;
+  border: none;
+  
+}
+.price-child:hover a{
+  text-decoration: none;
+  border: none;
+  color: #0d9240;
+}
+.jouin-us button{
+  margin: 5px;
+  width: 200px;
+  font-size: 15px;
+  height: 30px;
+  background-color: green;
+  border: none;
+  color:white;
+}
+.jouin-us:hover button{
+ 
+  background-color: rgb(10, 170, 10);
+  color:white;
+}
+.price-comment{
+  margin-top: 30px;
+  box-sizing: border-box;
+  width: 200px;
+  box-shadow: 1px 1px #979797;
+  border: 1px solid #e6e6e7;
+  font-size: 14px;
+  padding: 10px;
+}
+
+
+.staricon{
+margin: 4px;
+color: grey;
+}

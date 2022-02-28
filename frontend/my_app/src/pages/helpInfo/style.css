@@ -1,0 +1,233 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Libre+Baskerville:wght@700&family=Oswald&family=Roboto+Slab:wght@600&display=swap");
+.help-nav-mother {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid rgb(211, 207, 207);
+  width: 100%;
+}
+.help-nav-child {
+  text-decoration: none;
+  color: rgb(61, 62, 71);
+  font-family: "Libre Baskerville", serif;
+
+  font-size: 1.2rem;
+}
+.help-nav-child:hover {
+  text-decoration: none;
+  color: rgb(61, 62, 71);
+  border: none;
+}
+.small-font {
+  line-height: 1px;
+  font-size: 0.3rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+}
+
+.help-navx {
+  color: orange;
+  background-color: white;
+  border: none;
+  margin-top: 3px;
+}
+.help-navx:hover {
+  border: none;
+}
+.navbar-child {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 35px;
+  text-align: center;
+  width: 100%;
+}
+
+.navbar-child-search {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-help-mother {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.btn-help-child {
+  width: 210px;
+  height: 100px;
+  background-color: white;
+  color: rgb(27, 194, 27);
+  border: 1px solid rgb(27, 194, 27);
+  border-radius: 3px;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  margin-top: 50px;
+}
+.btn-help-child:hover {
+  color: white;
+  background-color: rgb(27, 194, 27);
+}
+.btn-help-child-link {
+  text-decoration: none;
+  color: rgb(27, 194, 27);
+}
+
+.help-questions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.help-writing {
+  color: rgb(66, 65, 65);
+  font-size: 16px;
+  text-decoration: none;
+}
+.help-writing:hover {
+  color: rgb(37, 30, 66);
+}
+.help-writing-child {
+  font-size: 14px;
+  color: rgb(54, 98, 136);
+}
+.help-detail-info-mother {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.help-detail-info {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.help-detail-info-child {
+  color: rgba(45, 48, 73, 1);
+  font-size: 14px;
+  text-decoration: none;
+}
+.help-detail-info-child:hover {
+  color: rgba(45, 48, 73, 1);
+}
+.help-detail-header {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  font-size: 32px;
+  color: rgba(45, 48, 73, 1);
+}
+.help-detail-info-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.help-detail-info-header-search {
+  width: 270px;
+}
+.link-help-detail {
+  text-decoration: none;
+  color: orange;
+}
+.link-help-detail:hover {
+  text-decoration: none;
+  color: orange;
+  border: none;
+}
+.help-link-footer {
+  color: orange;
+  margin-left: 30px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+.help-link-footer:hover {
+  color: orange;
+  text-decoration: none;
+  border: none;
+}
+.help-link-footer-mother {
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  border-top: 1 px solid rgb(202, 199, 199);
+}
+
+.modal-signin {
+  position: fixed; /* Stay in place */
+  z-index: 2; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+.modal-content-signin {
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  font-weight: bold;
+  color: rgb(80, 77, 77);
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  font-size: 14px;
+  z-index: 50;
+  box-shadow: 1px 1px 1px 1px #888;
+}
+.modal-content-signin-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+Input.help-input-modal {
+  box-shadow: none;
+  border: 1px solid #888;
+  height: 30px;
+  font-size: 14px;
+  width: 200px;
+}
+Input.help-input-modal:hover {
+  box-shadow: none;
+  border: 1px solid #888;
+}
+Input.help-input-modal::after {
+  box-shadow: none;
+  border: 1px solid #888;
+}
+Input.help-input-modal:focus {
+  box-shadow: none;
+  border: 1px solid #888;
+}
+.help-link-modal {
+  color: rgb(22, 22, 88);
+}
+
+.help-btn-modal {
+  width: 160px;
+  height: 30px;
+  background-color: rgb(45, 45, 94);
+  color: white;
+  border: none;
+  font-size: 13px;
+}
+
+.help-btn-modal:hover {
+  background-color: rgb(36, 36, 139);
+}

@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Libre+Baskerville:wght@700&family=Lora&family=Nunito:wght@300&family=Oswald&family=Raleway:wght@700&family=Roboto+Slab:wght@600&display=swap");
+* {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.server-bakiye-header {
+  font-size: 15px;
+}
+.server-bakiye-header0 {
+  font-weight: bold;
+}
+.server-bakiye-header1 {
+  font-weight: bold;
+}
+.server-bakiye-header2 {
+  font-size: 12px;
+  color: rgb(160, 160, 160);
+}
+.server-bakiye-header-small {
+  display: flex;
+  flex-direction: row;
+}
+.server-bakiye-header3 {
+  font-size: 12px;
+}
+.server-bakiye-input-container {
+  box-sizing: border-box;
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  background-color: rgb(209, 209, 209);
+  padding: 2px;
+  margin: 10px;
+}
+input[name="fav_language"] {
+  accent-color: green;
+}
+.server-bakiye-header5 {
+  width: 160px;
+  border: none;
+  border-radius: 3px;
+  margin: 2px;
+  padding: 2px;
+  font-size: 14px;
+  color: rgb(134, 134, 134);
+}
+.server-bakiye-header6 input {
+  margin: 2px;
+}
+.server-bakiye-header5-mother {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 200px;
+  height: 25px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  padding: 3px;
+}
+.server-bakiye-header6-mother {
+  display: flex;
+  flex-direction: row;
+}
+.server-bakiye-header6 {
+  box-sizing: border-box;
+  width: 80px;
+  height: 25px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+}
+.server-bakiye-header6 input {
+  border: none;
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  color: rgb(134, 134, 134);
+}
+.server-bakiye-header6-x {
+  box-sizing: border-box;
+  width: 100px;
+  height: 25px;
+  border: 1px solid rgb(192, 192, 192);
+  border-radius: 5px;
+  margin: 3px;
+  display: flex;
+  flex-direction: row;
+}
+.server-bakiye-header6-x input {
+  border: none;
+  width: 40px;
+  height: 20px;
+  font-size: 12px;
+  color: rgb(134, 134, 134);
+  padding: 3px;
+}
+.server-bakiye-header7 {
+  margin: 25px;
+}
+.server-bakiye-header7 button {
+  width: 200px;
+  border: none;
+  background-color: green;
+  color: white;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 17px;
+}
+.serve-service-setting {
+  font-size: 19px;
+  font-weight: bold;
+  
+}
+.serve-service-setting-child {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  cursor: pointer;
+}
+.serve-service-setting-child p {
+  font-size: 11px;
+  line-height: 22px;
+  font-weight: bold;
+  margin: 0;
+  margin-right: 6px;
+}
+.btn-family-serve-service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+}
+.btn-serve-service button {
+  border: none;
+  width: 180px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 2px;
+  background-color: white;
+}
+.btn-serve-service1 {
+  border: none;
+  width: 180px;
+  height: 40px;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 2px;
+  background-color: white;
+}
+.btn-serve-service:hover button {
+  background-color: rgb(241, 241, 241);
+}
+.btn-serve-service1:hover {
+  background-color: rgb(241, 241, 241);
+}
+.btn-family-serve-service {
+  display: none;
+}
+.dropdown-happening:hover .btn-family-serve-service {
+  display: block;
+}
+.dropdown-happening:focus .btn-family-serve-service {
+  display: block;
+}
+.dropdown-happening {
+  position: relative;
+  display: inline-block;
+}
+.addservice button {
+  margin-bottom: 15px;
+  border: none;
+  width: 190px;
+  height: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  color: grey;
+  text-align: left;
+  background-color: white;
+}
+.addservice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: white;
+  padding: 3px;
+  text-decoration: none;
+  border: none;
+  margin: 2px;
+}
+.addservice:hover {
+  background-color: rgb(236, 236, 236);
+  color: grey;
+  text-decoration: none;
+  border: none;
+}
+.addservice:hover button {
+  background-color: rgb(236, 236, 236);
+  color: grey;
+  text-decoration: none;
+  border: none;
+}
+.addservice i {
+  color: grey;
+}
+.serve-edit1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.servedit1-mother {
+  margin-top: 15px;
+  line-height: 10px;
+}
+.serve-edit2 {
+  font-size: 14px;
+  color: grey;
+}
+.serve-edit2 i {
+  margin-left: 5px;
+}
+.serve-edit3 {
+  font-size: 14px;
+  color: grey;
+  margin: 2px;
+}
+.serve-edit3 i {
+  margin-right: 3px;
+}
+.serve-edit4-mother {
+  margin-top: 5px;
+}
+.serve-edit4 {
+  font-size: 19px;
+  font-weight: bold;
+}
+.serve-edit5 {
+  font-size: 14px;
+}
+.serve-edit6 {
+  margin: 5px;
+  border: none;
+  background-color: green;
+  width: 200px;
+  height: 30px;
+  color: white;
+  border-radius: 3px;
+}
+.img-box {
+  box-sizing: border-box;
+  width: 200px;
+  height: 180px;
+  background-color: rgb(218, 218, 218);
+}
+.serve-my-works {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgb(240, 240, 240);
+  top: 0;
+  bottom: 0;
+}
+.serve-my-works1 {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.serve-my-works-mother {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 270px;
+  height: 480px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 5px;
+}
+.serve-my-works1-child {
+  display: flex;
+  flex-direction: row;
+}
+.serve-my-works-mother1 {
+  line-height: 16px;
+  padding: 10px;
+  box-sizing: border-box;
+  width: 260px;
+  height: 250px;
+  background-color: rgb(212, 212, 212);
+  border-radius: 5px;
+}
+.serve-my-works2 {
+  text-decoration: none;
+  color: rgb(68, 67, 67);
+  font-weight: 700;
+  border: none;
+  margin-left: 8px;
+  font-size: 16px;
+}
+.serve-my-works2:hover {
+  color: rgb(68, 67, 67);
+  font-weight: 700;
+  border: none;
+}
+.serve-my-opport-mother {
+  box-sizing: border-box;
+  width: 258px;
+  background-color: white;
+  height: 200px;
+  border: 1px solid rgb(180, 180, 180);
+  text-decoration: none;
+  border-radius: 3px;
+  margin: 3px;
+  color: rgb(78, 78, 78);
+  line-height: 14px;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.opport2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.opport3 {
+  box-sizing: border-box;
+  background-color: rgb(230, 230, 230);
+  border: 2px solid rgb(180, 180, 180);
+  margin: 4px;
+}
+.opport8 {
+  color: rgb(65, 63, 73);
+  font-size: 14px;
+  font-weight: 700;
+}
+.opport4 {
+  width: 240px;
+  height: 32px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  padding: 7px;
+  color: rgb(65, 63, 73);
+}
+.opport5 {
+  width: 240px;
+  height: 90px;
+  border-radius: 4px;
+  font-size: 14px;
+  border: none;
+  padding: 7px;
+  color: rgb(65, 63, 73);
+}
+.opport6 {
+  width: 40px;
+  height: 40px;
+  margin: 3px;
+  border: none;
+  background-color: rgb(240, 240, 240);
+}
+.opport7 {
+  width: 120px;
+  height: 40px;
+  margin: 3px;
+  background-color: green;
+  color: white;
+  border: none;
+}
+.opport9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.serve-myworks-detail{
+ 
+  display: flex;
+  flex-direction: column;
+  line-height: 10px;
+  font-size: 12px;
+  padding: 12px;
+}

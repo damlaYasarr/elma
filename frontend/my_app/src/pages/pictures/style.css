@@ -1,0 +1,86 @@
+.serve-people-picture-mother {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  height: 50px;
+  justify-content: space-evenly;
+  padding: 10px;
+  border-bottom: 1px solid rgb(175, 175, 175);
+}
+.serve-people-picture-mother-child {
+  display: flex;
+  flex-direction: row;
+}
+.serve-people-picture1 {
+  color: inherit;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+.serve-people-picture1:hover {
+  color: inherit;
+  text-decoration: none;
+  border: none;
+}
+.sppm1{
+    margin: 3px;
+    font-size: 12px;
+    color: rgb(12, 143, 12);
+    font-weight: bold;
+    text-decoration: none;
+}
+.sppm1:hover{
+    border: none;
+    color: rgb(9, 207, 9);
+    text-decoration: none;
+}
+.sppm2{
+    background-color: rgb(204, 204, 204);
+    color: black;
+    font-size: 14px;
+   text-decoration: none;
+   border-radius: 3px;
+   border-bottom: 2px solid gray;
+    padding: 3px;
+    margin: 3px;
+
+}.sppm2:hover{
+   border: none;
+   color: black;
+   text-decoration: none;
+   background-color: aliceblue;
+
+}
+.sppm-child{
+    text-decoration: none;
+    font-size: 14px;
+    background-color: rgb(35, 155, 35);
+    color: rgb(255, 255, 255);
+    border-radius: 3px;
+    border-bottom: 2px solid rgb(35, 155, 35);
+     padding: 3px;
+}.sppm-child:hover{
+    text-decoration: none;
+   color: white;
+    border: none;
+    border-bottom: 2px solid rgb(35, 155, 35);
+}
+.body-of-image{
+    padding: 30px;
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+       
+}
+.body-of-image img{
+    width: 550px;
+    height: 500px;
+}
+.footer-of-image{
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+   
+    background-color: rgb(46, 46, 83);
+}

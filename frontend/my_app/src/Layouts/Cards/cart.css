@@ -1,0 +1,85 @@
+Button.btn {
+  width: 120px;
+  height: 30px;
+  margin-top: 15px;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  display: none;
+  background-color: #2cb34f;
+  color: white;
+}
+Button.btn:hover {
+  color: white;
+}
+.cart-mother:hover button {
+  transform: translateY(4px);
+  display: block;
+}
+.btn-link1 {
+  color: white;
+  text-decoration: none;
+  width: 100px;
+  height: 100px;
+}
+
+.btn-link1:hover {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+.btn:hover {
+  color: white;
+}
+img {
+  width: 100%;
+  height: 120px;
+}
+
+.cart-mother {
+  margin: 5px;
+  box-sizing: border-box;
+  width: 170px;
+  height: 200px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 13px;
+}
+.card-title {
+  margin-top: 2px;
+  color: green;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn-icon-info {
+  font-size: 11px;
+  color: rgb(158, 158, 158);
+}
+
+.popular-header {
+  margin: 30px;
+  font-size: 20px;
+  color: rgb(117, 117, 117);
+
+  text-align: center;
+}
+.serve-popular {
+  text-decoration: none;
+  color: #2cb34f;
+  font-size: 12px;
+  border: none;
+}
+.serve-popular:hover {
+  text-decoration: none;
+  color: #2cb34f;
+  border: none;
+}
+.cart-mother-mother {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

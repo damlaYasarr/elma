@@ -1,0 +1,25 @@
+.search-mother {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+outline: none;
+  border: 1px solid rgb(202, 199, 199);
+  padding: 9px;
+  background-color: white;
+}
+.search-mother input {
+  width: 200px;
+  padding-left: 6px;
+  color: inherit;
+  border: none;
+  font-size: 14px;
+ 
+
+}
+.search-mother:focus input {
+  border: transparent;
+}

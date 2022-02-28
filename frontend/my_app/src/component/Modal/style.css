@@ -1,0 +1,433 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&family=Lato&family=Oswald&display=swap");
+
+* {
+  font-family: "Roboto,Raleway,Helvetica,Arial,sans-serif";
+  margin: 0;
+  padding: 0;
+}
+.adresschosen {
+  width: 200px;
+  height: 27px;
+  outline: none;
+  border-color: #1db142;
+  background-color: white;
+  margin: 2px;
+}
+.adresschosen:focus {
+  width: 200px;
+  height: 27px;
+  border: 1px solid grey;
+  outline: none;
+  border-color: #1db142;
+  color: #555;
+  background-color: white;
+  margin: 2px;
+}
+.Info-abone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 13px;
+}
+.body-modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(44, 40, 71);
+}
+.body-modal-cancel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(28, 26, 37);
+}
+.card-mother {
+  min-width: 300px;
+  height: 370px;
+  background-color: white;
+}
+.cancel-serve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  padding: 15px;
+}
+.cancel-serve-btn1 {
+  width: 150px;
+  height: 35px;
+  color: white;
+  border: none;
+  background-color: rgb(146, 4, 4);
+  margin: 2px;
+}
+.cancel-serve-btn2 {
+  width: 50px;
+  height: 35px;
+  color: white;
+  border: none;
+  background-color: rgb(102, 98, 98);
+}
+.card-mother::after,
+::before {
+  box-sizing: border-box;
+}
+
+.modal-btn {
+  box-sizing: border-box;
+  width: 120px;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid green;
+  font-size: 14px;
+  color: rgb(61, 62, 71);
+  font-family: "Lato", sans-serif;
+  background-color: white;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header-mom {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  margin-left: 10px;
+  color: rgb(61, 62, 71);
+  font-weight: bold;
+}
+.header-alt {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.hr {
+  margin: 0.2rem;
+  box-shadow: 1px 1px #888;
+}
+
+.btn-back {
+  width: 70px;
+  border: none;
+  background-color: white;
+  border-radius: 2px;
+  height: 30px;
+  margin: 2px;
+  color: rgb(61, 62, 71);
+  font-family: "Oswald", sans-serif;
+  font-size: 15px;
+}
+.btn-back:focus {
+  background-color: #e0e0e0;
+  border: none;
+}
+.mdl-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  border-top: 1px solid rgb(170, 165, 165);
+}
+.btn-continue {
+  background-color: green;
+  color: white;
+  font-size: 15px;
+  width: 160px;
+  height: 30px;
+  border-radius: 2px;
+  margin: 2px;
+  font-family: "Oswald", sans-serif;
+  border: none;
+}
+.btn-continue :focus {
+  color: white;
+}
+.btn-continue::after {
+  color: white;
+}
+.btn-continue:hover {
+  color: white;
+}
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  scrollbar-width: thin;
+  scrollbar-color: #c3c3d1 #e0e0e0;
+  scrollbar-gutter: var(--gutter, auto);
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-body-label {
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  color: rgb(61, 62, 71);
+}
+.desc {
+  font-size: 0.6rem;
+  color: #888;
+  font-family: "Lato", sans-serif;
+  line-height: 11px;
+}
+.modal-body::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.modal-body::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.modal-body::-webkit-scrollbar-thumb {
+  background: rgb(199, 199, 199);
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle on hover */
+.modal-body ::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+.btn-db-mother {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 250px;
+  height: 35px;
+  border: 1px solid rgb(206, 201, 201);
+  border-radius: 2px;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 3px;
+}
+.btn-db {
+  outline: none;
+  border: none;
+  background-color: white;
+  width: 250px;
+  text-align: left;
+  height: 30px;
+}
+
+.btn-db-mother i {
+  display: none;
+}
+.btn-db-mother:hover i {
+  display: block;
+  color: #1ca03e;
+}
+.btn-db-mother:focus {
+  border: solid 1px #1ca03e;
+  color: #1ca03e;
+}
+
+.btn-db-mother:hover {
+  border: solid 1px #1ca03e;
+  color: #1ca03e;
+}
+
+.btntime {
+  background-color: white;
+  border: 1px solid #555;
+  color: rgb(94, 87, 87);
+
+  padding: 18px;
+
+  text-align: center;
+  font-size: 19px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+.timeDesing {
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.header-label {
+  font-family: "Lato", sans-serif;
+  font-size: 0.6rem;
+  color: #888;
+}
+.btns-abone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.btn-abone-child {
+  box-sizing: none;
+  margin: 2px;
+  border: 1px solid #888;
+  border-radius: 2px;
+  font-size: 15px;
+  padding: 0.1rem;
+}
+.btn-abone-child:hover {
+  border: 1px solid #1ca03e;
+  background-color: #1ca03e0f;
+}
+.btn-abone-app {
+  box-sizing: none;
+  font-family: "Lato", sans-serif;
+  border: 1px solid rgb(192, 191, 191);
+  border-radius: 2px;
+  font-size: 10px;
+  padding: 0.3rem;
+  margin: 2px;
+  margin-top: 0.2rem;
+  padding-bottom: 0.1rem;
+
+  width: 170px;
+  text-align: left;
+  line-height: 1px;
+}
+.btn-abone-app:hover {
+  border: 1px solid #1ca03e;
+  background-color: #1ca03e0f;
+}
+.lbl-price {
+  display: flex;
+  justify-content: right;
+  font-size: 10px;
+  font-family: "Lato", sans-serif;
+}
+.btn-discount1 {
+  box-sizing: border-box;
+  width: 53px;
+  height: 2px;
+  position: absolute;
+  margin: -20px 0 140px 110px;
+  background-color: white !important;
+}
+.btn-discount2 {
+  box-sizing: border-box;
+  width: 53px;
+  height: 2px;
+  position: absolute;
+  margin: -20px 0 140px 110px;
+  background-color: white !important;
+}
+
+.btn-discount3 {
+  box-sizing: border-box;
+  width: 53px;
+  height: 2px;
+  position: absolute;
+  margin: -8px -8px 140px 110px;
+  background-color: white !important;
+}
+.text-description {
+  box-sizing: border-box;
+  width: 230px;
+  margin-left: 10px;
+
+  height: 180px;
+  border: 1px solid rgb(202, 202, 202);
+  padding: 0.2rem;
+  border-radius: 2px;
+  font-size: 13px;
+  font-family: "Lato", sans-serif;
+}
+.text-description:focus {
+  border: 1px solid rgb(202, 202, 202);
+  outline: none;
+  color: #555;
+}
+.inputInfo {
+  box-sizing: border-box;
+  border: 1px solid rgb(161, 159, 159);
+  border-radius: 3px;
+  padding: 0.2rem;
+  width: 190px;
+  font-size: 14px;
+  font-family: "Lato", sans-serif;
+}
+.lbl-input {
+  font-size: 14px;
+  line-height: 1px;
+  font-family: "Lato", sans-serif;
+  color: rgb(85, 84, 84);
+}
+.btnInput {
+  box-sizing: border-box;
+  border: 1px solid #888;
+  width: 100px;
+  margin: 9px;
+
+  border-radius: 2px;
+  background-color: #1ca03e;
+  font-family: "Lato", sans-serif;
+  color: rgb(255, 255, 255);
+}
+.btnInput:hover {
+  background-color: #1db142;
+}
+
+.inputAdress {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 0.2rem;
+  box-sizing: border-box;
+  width: 190px;
+  height: 90px;
+  border-radius: 2px;
+  font-size: 12px;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+.inputAdress:focus {
+  border: 1px solid rgb(202, 202, 202);
+  padding: 0.2rem;
+  box-sizing: border-box;
+  width: 190px;
+  outline: none;
+  height: 90px;
+  border-radius: 2px;
+  font-size: 12px;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+.request-detail{
+  font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
+  color: rgb(34, 34, 34);
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+line-height: 15px;
+  border: 1px solid #888;
+  width: 300px;
+  height: 380px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 1px 1px 1px 1px rgb(170, 169, 169);
+}
+.request-detail-header1{
+  font-size: 12px;
+  font-weight: bold;
+}.request-detail-header2{
+  font-size: 12px;
+  
+}
+.request-detail-header2 i{
+  margin-right: 5px;
+  color: grey;
+  
+}

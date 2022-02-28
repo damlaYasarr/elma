@@ -1,0 +1,123 @@
+.footer{
+    background-color: rgb(45, 45, 93);
+    color: rgb(230, 230, 230);
+    height: 250px;
+    font-size: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+    
+}
+.footer-sister{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: bold;
+}
+.footer-child{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 15px;
+
+}
+.footer-child-1{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    border: none;
+}
+
+.footer-child-1:hover{
+    color: white;
+    text-decoration: none;
+    border: none;
+}
+.footer-child-son{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer-child-son1{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    color: rgb(209, 209, 209);
+    text-decoration: none;
+    border: none;
+
+}
+.text1:hover{
+    color: rgb(167, 167, 167);
+    text-decoration: none;
+    border: none;
+}
+.text2{
+    margin-top:5px ;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(19, 194, 19);
+    border: 1px solid rgb(19, 194, 19);
+    text-decoration: none;
+    width: 60px;
+    padding: 2px;
+}
+.text2:hover{
+    text-decoration: none;
+    color: rgb(19, 194, 19);
+}
+.text3{
+    background-color: white;
+    color: rgb(114, 114, 114);
+    padding: 3px;
+    text-decoration: none;
+    width: 55px;
+    font-size: 9px;
+    border-radius: 4px;
+    border: none;
+
+}
+.text3:hover{
+    color: rgb(114, 114, 114);
+    text-decoration: none;
+    border: none;
+}
+
+.link1{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+.link1:hover{
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+}
+.text4{
+    display:flex;
+     flex-direction:row;
+     justify-content: space-evenly;
+}
+.text5-mother{
+    display: flex;
+    flex-direction: row;
+
+}
+.text5{
+    font-size: 12px;
+    
+    color: grey;
+    border: none;
+    text-decoration: none;
+}
+.text5:hover{
+    font-size: 12px;
+    text-decoration: none;
+    color: grey;
+    border: none;
+}
