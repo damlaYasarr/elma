@@ -1,4 +1,7 @@
 ## this website was created as a armut.com clone 
+# how to start
+ - npm start (frontend) 
+ - npm run start (backend)
 
 # stack 
  nodejs  react postgresql 
@@ -8,8 +11,9 @@
 
 ## code overview 
 
-...  expressjs - The server for handling and routing HTTP requests 
-... dotenv - Zero-Dependency module that loads environment variables
-... multer - Node.js middleware for uploading files
+ - expressjs - The server for handling and routing HTTP requests 
+ - dotenv - Zero-Dependency module that loads environment variables
+ - multer - Node.js middleware for uploading files
+ - postgresql- used as database 
 
 
